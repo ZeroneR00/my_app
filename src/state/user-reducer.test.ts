@@ -24,4 +24,3 @@ test('user reducer should change name of user', () => {
     const endState = userReducer(startState, { type: 'CHANGE-NAME', newName: newName})
     expect(endState.name).toBe(newName);
 })
-
